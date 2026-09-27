@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="300" style="background: linear-gradient(135deg, #0b0f19 0%, #111827 50%, #1e1b4b 100%); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 12px; overflow: hidden;">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Animation Keyframes -->
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.15; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(1.08); }
+      }
+      @keyframes flowData {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes floatNode {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes particleSpark {
+        0% { opacity: 0.2; transform: translate(0, 0) scale(0.8); }
+        50% { opacity: 0.9; transform: translate(10px, -15px) scale(1.2); }
+        100% { opacity: 0.2; transform: translate(0, 0) scale(0.8); }
+      }
+
+      .bg-glow {
+        animation: pulseGlow 8s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .data-stream {
+        stroke-dasharray: 12, 12;
+        animation: flowData 4s linear infinite;
+      }
+      .node-1 { animation: floatNode 5s ease-in-out infinite; }
+      .node-2 { animation: floatNode 6s ease-in-out infinite 1s; }
+      .node-3 { animation: floatNode 7s ease-in-out infinite 2s; }
+      .sparkle { animation: particleSpark 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND DYNAMIC ANIMATED LAYER (Rendered Behind Text) -->
+  <rect width="1000" height="300" fill="url(#glow)" class="bg-glow"/>
+
+  <!-- Network / Data Stream Grid Lines -->
+  <g stroke="rgba(255, 255, 255, 0.05)" stroke-width="1">
+    <line x1="0" y1="60" x2="1000" y2="60"/>
+    <line x1="0" y1="150" x2="1000" y2="150"/>
+    <line x1="0" y1="240" x2="1000" y2="240"/>
+  </g>
+
+  <!-- Flowing Data Connections (Background Dynamic Lines) -->
+  <path d="M 600,60 Q 750,120 920,80" fill="none" stroke="rgba(56, 189, 248, 0.3)" stroke-width="2" class="data-stream"/>
+  <path d="M 650,240 Q 800,160 950,220" fill="none" stroke="rgba(129, 140, 248, 0.3)" stroke-width="2" class="data-stream" style="animation-duration: 6s;"/>
+  <path d="M 700,150 Q 820,270 960,140" fill="none" stroke="rgba(192, 132, 252, 0.3)" stroke-width="2" class="data-stream" style="animation-duration: 5s;"/>
+
+  <!-- Background Data Nodes -->
+  <g class="node-1">
+    <circle cx="750" cy="120" r="6" fill="#38bdf8" opacity="0.8"/>
+    <circle cx="750" cy="120" r="14" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.4"/>
+  </g>
+  <g class="node-2">
+    <circle cx="850" cy="200" r="8" fill="#818cf8" opacity="0.8"/>
+    <circle cx="850" cy="200" r="18" fill="none" stroke="#818cf8" stroke-width="1" opacity="0.4"/>
+  </g>
+  <g class="node-3">
+    <circle cx="920" cy="80" r="5" fill="#c084fc" opacity="0.8"/>
+    <circle cx="920" cy="80" r="12" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <!-- Subtle Ambient Sparkles -->
+  <circle cx="620" cy="90" r="3" fill="#38bdf8" class="sparkle"/>
+  <circle cx="880" cy="130" r="2.5" fill="#818cf8" class="sparkle" style="animation-delay: 1s;"/>
+  <circle cx="780" cy="250" r="3.5" fill="#c084fc" class="sparkle" style="animation-delay: 1.5s;"/>
+
+  <!-- FOREGROUND TEXT & CONTENT LAYER (Guaranteed High Contrast & Visibility) -->
+  <g transform="translate(60, 0)">
+    <!-- Badge Pill -->
+    <g transform="translate(0, 45)">
+      <rect width="185" height="28" rx="14" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+      <text x="14" y="18" fill="#38bdf8" font-size="12" font-weight="600" letter-spacing="0.5">⚡ AWESOME CDP LIST</text>
+    </g>
+
+    <!-- Main Header Title -->
+    <text x="0" y="125" fill="#ffffff" font-size="36" font-weight="800" letter-spacing="-0.5">
+      Awesome Customer Data Platform
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="160" fill="#94a3b8" font-size="17" font-weight="400">
+      Unification • Identity Resolution • Audience Segmentation • Data Activation
+    </text>
+
+    <!-- Feature Tag Pills -->
+    <g transform="translate(0, 195)">
+      <!-- Pill 1: SaaS & Open-Source -->
+      <g transform="translate(0, 0)">
+        <rect width="165" height="32" rx="8" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1"/>
+        <text x="14" y="20" fill="#e2e8f0" font-size="13" font-weight="500">🏢 SaaS &amp; Open-Source</text>
+      </g>
+      <!-- Pill 2: Warehouse-Native -->
+      <g transform="translate(177, 0)">
+        <rect width="170" height="32" rx="8" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1"/>
+        <text x="14" y="20" fill="#e2e8f0" font-size="13" font-weight="500">❄️ Warehouse-Native</text>
+      </g>
+      <!-- Pill 3: Real-Time Pipelines -->
+      <g transform="translate(359, 0)">
+        <rect width="165" height="32" rx="8" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1"/>
+        <text x="14" y="20" fill="#e2e8f0" font-size="13" font-weight="500">🔄 Real-Time ETL/Reverse</text>
+      </g>
+    </g>
+  </g>
+</svg>
