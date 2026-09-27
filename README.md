@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CDP/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CDP?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CDP/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CDP?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-CDP/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-CDP?style=flat-square&color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-CDP/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-CDP?style=flat-square&color=brightgreen" alt="Last Commit"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -62,45 +62,45 @@ Below is a curated summary of enterprise SaaS CDPs, sorted by **Company Size / V
 
 ## 🔓 Open-Source GitHub Projects
 
-Open-source CDP solutions provide maximum transparency, full data sovereignty, and custom extensibility. Below is a comprehensive list of active open-source projects, sorted by **GitHub Star Count** in descending order.
+Open-source CDP solutions provide maximum transparency, full data sovereignty, and custom extensibility. Below is a comprehensive list of active open-source projects, sorted by **GitHub Stars_Count** in descending order.
 
-1. **[PostHog](https://github.com/PostHog/posthog)** [<img src="https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white" alt="GitHub stars"/>](https://github.com/PostHog/posthog/stargazers)
+1. **[PostHog](https://github.com/PostHog/posthog)** [<img src="https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/PostHog/posthog/stargazers)
    - **Description**: All-in-one open-source product analytics, session recording, feature flags, A/B testing, and event ingestion CDP platform. Python/TypeScript stack.
    - **License**: MIT / Open Source.
 
-2. **[Airbyte](https://github.com/airbytehq/airbyte)** [<img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white" alt="GitHub stars"/>](https://github.com/airbytehq/airbyte/stargazers)
+2. **[Airbyte](https://github.com/airbytehq/airbyte)** [<img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/airbytehq/airbyte/stargazers)
    - **Description**: Leading open-source ELT data pipeline platform with 600+ connectors to extract and load data into data warehouses for CDP storage.
    - **License**: ELv2 / MIT.
 
-3. **[Snowplow](https://github.com/snowplow/snowplow)** [<img src="https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white" alt="GitHub stars"/>](https://github.com/snowplow/snowplow/stargazers)
+3. **[Snowplow](https://github.com/snowplow/snowplow)** [<img src="https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/snowplow/snowplow/stargazers)
    - **Description**: Enterprise-grade open-source behavioral data collection and event streaming framework designed for real-time customer data pipelines.
    - **License**: Apache 2.0 / Open Source.
 
-4. **[Jitsu](https://github.com/jitsucom/jitsu)** [<img src="https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white" alt="GitHub stars"/>](https://github.com/jitsucom/jitsu/stargazers)
+4. **[Jitsu](https://github.com/jitsucom/jitsu)** [<img src="https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/jitsucom/jitsu/stargazers)
    - **Description**: Open-source high-performance data ingestion engine and real-time reverse ETL tool built as a lightweight alternative to Segment.
    - **License**: MIT / Open Source.
 
-5. **[RudderStack Core](https://github.com/rudderlabs/rudder-server)** [<img src="https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white" alt="GitHub stars"/>](https://github.com/rudderlabs/rudder-server/stargazers)
+5. **[RudderStack Core](https://github.com/rudderlabs/rudder-server)** [<img src="https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/rudderlabs/rudder-server/stargazers)
    - **Description**: Production-grade open-source CDP core written in Go. Collects and routes event data directly to your data warehouse without data retention.
    - **License**: SSPL / Open Source.
 
-6. **[Meltano](https://github.com/meltano/meltano)** [<img src="https://img.shields.io/github/stars/meltano/meltano?style=social&color=white" alt="GitHub stars"/>](https://github.com/meltano/meltano/stargazers)
+6. **[Meltano](https://github.com/meltano/meltano)** [<img src="https://img.shields.io/github/stars/meltano/meltano?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/meltano/meltano/stargazers)
    - **Description**: CLI-first open-source DataOps infrastructure powering ELT pipelines and data integration for warehouse-native CDP setups.
    - **License**: MIT / Open Source.
 
-7. **[Tracardi](https://github.com/tracardi/tracardi)** [<img src="https://img.shields.io/github/stars/tracardi/tracardi?style=social&color=white" alt="GitHub stars"/>](https://github.com/tracardi/tracardi/stargazers)
+7. **[Tracardi](https://github.com/tracardi/tracardi)** [<img src="https://img.shields.io/github/stars/tracardi/tracardi?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/tracardi/tracardi/stargazers)
    - **Description**: Composable, API-first open-source CDP written in Python with Elasticsearch backend. Provides user profile management and low-code rule flows.
    - **License**: MIT / Open Source.
 
-8. **[Apache Unomi](https://github.com/apache/unomi)** [<img src="https://img.shields.io/github/stars/apache/unomi?style=social&color=white" alt="GitHub stars"/>](https://github.com/apache/unomi/stargazers)
+8. **[Apache Unomi](https://github.com/apache/unomi)** [<img src="https://img.shields.io/github/stars/apache/unomi?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/apache/unomi/stargazers)
    - **Description**: Java-based open-source Customer Data Platform server developed under the Apache Software Foundation, implementing OASIS CXS standards.
    - **License**: Apache 2.0.
 
-9. **[Pimcore Customer Data Framework](https://github.com/pimcore/customer-data-framework)** [<img src="https://img.shields.io/github/stars/pimcore/customer-data-framework?style=social&color=white" alt="GitHub stars"/>](https://github.com/pimcore/customer-data-framework/stargazers)
+9. **[Pimcore Customer Data Framework](https://github.com/pimcore/customer-data-framework)** [<img src="https://img.shields.io/github/stars/pimcore/customer-data-framework?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/pimcore/customer-data-framework/stargazers)
    - **Description**: Open-source PHP CDP extension integrating customer profile management and segment building within Pimcore PIM/MDM suite.
    - **License**: GPLv3 / Open Source.
 
-10. **[LEO CDP](https://github.com/trieu/leo-cdp-framework)** [<img src="https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white" alt="GitHub stars"/>](https://github.com/trieu/leo-cdp-framework/stargazers)
+10. **[LEO CDP](https://github.com/trieu/leo-cdp-framework)** [<img src="https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/trieu/leo-cdp-framework/stargazers)
     - **Description**: Open-source AI-first CDP framework featuring Customer 360, RFM segmentation, ML churn prediction, and automated personalization.
     - **License**: AGPL v3 / Open Source.
 
